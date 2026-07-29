@@ -1,0 +1,104 @@
+# ==========================================
+# 1. SECRETS, KEYS & CREDENTIALS (Zero-Leak)
+# ==========================================
+.env
+.env.*
+!.env.example
+*.env
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+*.asc
+*.keystore
+id_rsa
+id_rsa.*
+*.pub
+credentials.json
+client_secret*.json
+aws_credentials
+config.json
+
+# ==========================================
+# 2. PYTHON & FASTAPI CACHE
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# 3. VIRTUAL ENVIRONMENTS
+# ==========================================
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.venv*/
+
+# ==========================================
+# 4. DATABASE & STORAGE (Local & Production)
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.dump
+*.sql
+*.rds
+
+# ==========================================
+# 5. LOGS, METRICS & TEMPORARY FILES
+# ==========================================
+*.log
+*.err
+*.out
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================================
+# 6. IDEs & EDITORS (VS Code, PyCharm, OS)
+# ==========================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# 7. DOCKER & CONTAINERS
+# ==========================================
+.docker/
+docker-compose.override.yml
